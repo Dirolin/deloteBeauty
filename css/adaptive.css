@@ -1,6 +1,9 @@
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1300px) {
 	.container {
-		width: 1140px;
+		width: 1240px;
+	}
+	.flex-container{
+		width: 1000px;
 	}
 }
 
@@ -9,17 +12,25 @@
 		width: 960px;
 	}
 	
+	
 }
 
 @media screen and (max-width: 991px) {
 	.container {
 		width: 720px;
 	}
+	
 }
 
 @media screen and (max-width: 767px) {
 	.container {
 		width: 540px;
+	}
+	.flex-container{
+		width: 1000px;
+	}
+	.flex-container2{
+		width: 1000px;
 	}
 	}
 
@@ -28,5 +39,10 @@
 		width: 100%;
 		padding: 0 15px;
 	}
-	
+	.flex-container{
+		width: 800px;
+	}
+	.flex-container2{
+		width: 800px;
+	}
 }

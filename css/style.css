@@ -161,6 +161,7 @@ margin-top: 20px;
 
 }
 .flex-container{
+  max-width: 1500px;
   position: absolute;
   left: 370px;
   top: 1658px;
