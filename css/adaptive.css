@@ -1,0 +1,25 @@
+@media (max-width:1200px){
+    .header{
+        font-size: calc(20px +(50-72)*((100vw - 320px)/(1200-320)));
+    }
+}
+@media (max-width:1200px){
+    .body{
+        font-size: calc(20px +(50-72)*((100vw - 320px)/(1200-320)));
+    }
+}
+@media (max-width:1200px){
+    .flex-container{
+        font-size: calc(20px +(50-72)*((100vw - 320px)/(1200-320)));
+    }
+}
+@media (max-width:1200px){
+    .mark{
+        font-size: calc(20px +(50-72)*((100vw - 320px)/(1200-320)));
+    }
+} 
+@media (max-width:1200px){
+    .flex-container2{
+        font-size: calc(20px +(50-72)*((100vw - 320px)/(1200-320)));
+    }
+}

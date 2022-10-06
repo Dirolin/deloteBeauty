@@ -21,7 +21,7 @@ html{
 .header{
   position: absolute;
   top: 0;
-  left: 0;
+  left:  0 auto;
   width: 100%;
   margin-top: 39px;
   
@@ -48,11 +48,11 @@ overflow-x: hidden;
 .header_list{
   display: flex;
   flex-wrap: wrap;
-  
+  position: absolute;
   
 }
 .header{
- margin-left: -20px;
+ margin-left: auto 0px;
   z-index: 1000
 }
 
@@ -91,7 +91,7 @@ z-index: -1;
 }
 .line_header{
  margin-top: 38px;
-  margin-left: 230px;
+  margin-left: 270px;
 }
 .intro{
   position: absolute;
@@ -103,14 +103,14 @@ z-index: -1;
   position: absolute;
 width: 961px;
 height: 258px;
-left: 300px;
+left: 530px;
 top: 360px;
 }
 .element_1{
   position: absolute;
 width: 20px;
 height: 30px;
-left: 676px;
+left: 1076px;
 top: 908px;
 }
 .element_text{
@@ -121,7 +121,7 @@ line-height: 140%;
 position: absolute;
 width: 128px;
 height: 25px;
-left: 716px;
+left: 916px;
 top: 911px;
 white-space: nowrap;
 }
@@ -129,14 +129,14 @@ white-space: nowrap;
   position: absolute;
   width: 80px;
   height: 64px;
-  left: 750px;
+  left: 950px;
   top: 1158px;
 }
 .about_text{
   position: absolute;
 width: 856px;
 height: 261px;
-left: 350px;
+left: 550px;
 top: 1282px;
 font-weight: 700;
 font-size: 27px;
@@ -159,12 +159,12 @@ margin-top: 20px;
 }
 .flex-container{
   position: absolute;
-  left: 70px;
+  left: 370px;
   top: 1658px;
   display: flex;
   flex-wrap: wrap;
   margin: 34px;
-  margin-left: 180px;
+ 
   margin-bottom: 220px; 
  
 }
@@ -182,13 +182,13 @@ line-height: 120%;
 }
 .mark{
  margin-top: 1600px;
-margin-left: 140px;
+margin-left: 280px;
 }
 .example{
   position: absolute;
 width: 961px;
 height: 58px;
-left: 480px;
+left: 680px;
 top: 2932px;
 color: #ffffff;
 font-weight: 700;
@@ -197,7 +197,7 @@ margin-left: 180px;
 }
 .menu{
   
-  margin-left: 450px;
+  margin-left: 650px;
   margin-top: 250px;
   
 }
@@ -223,7 +223,7 @@ margin-left: 180px;
   width: 416px;
 height: 416px;
 margin-top: 20px;
-margin-left: 20px;
+margin-left: 120px;
 
 }
 .flex-container2{
