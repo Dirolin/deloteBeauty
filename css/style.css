@@ -93,6 +93,9 @@ z-index: -1;
  margin-top: 38px;
   margin-left: 270px;
 }
+.container{
+  max-width: 1440px;
+}
 .intro{
   position: absolute;
   color: #ffffff;
