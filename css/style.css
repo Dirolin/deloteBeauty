@@ -13,6 +13,7 @@
 }
 /*my coding*/
 html{
+  
   box-sizing: border-box;
 }
 *,*::before,*::after{
@@ -24,15 +25,15 @@ html{
   left:  0 auto;
   width: 100%;
   margin-top: 39px;
+  left:20%
   
 }
 .wrapper{
   
-  max-width:1060px ;
-  margin: 0 auto;
-  
-}
+    margin: 0 auto;
+  }
 body{
+  max-width: 1200px;
   font-family: 'Cormorant Garamond';
   font-style: normal;
   font-size: 16px;
@@ -75,12 +76,13 @@ text-decoration: none;
   color: rgb(255, 198, 100); 
 }
 .background{
+  left: 25%;
   position: flex;
 background-size:100% ;
 max-height: 1038px;
 max-width: 1920px;
 z-index: -1;
-width: 100%;
+
 
 }
 .inst{
@@ -92,7 +94,7 @@ width: 100%;
 }
 .line_header{
  margin-top: 38px;
-  margin-left: 270px;
+max-width: 800px;
 }
 .container{
   max-width: 1440px;
@@ -162,7 +164,7 @@ margin-top: 20px;
 
 }
 .flex-container{
-  max-width: 1500px;
+  max-width: 1200px;
   position: absolute;
   left: 370px;
   top: 1658px;
@@ -188,6 +190,8 @@ line-height: 120%;
 .mark{
  margin-top: 1600px;
 margin-left: 280px;
+z-index: 1;
+
 }
 .example{
   position: absolute;
@@ -202,17 +206,17 @@ margin-left: 180px;
 }
 .menu{
   
-  margin-left: 650px;
+  margin-left: 750px;
   margin-top: 250px;
   
 }
 .list_exa>li{
   
-  font-weight: 400;
+  
   font-size: 24px;
   line-height: 130%;
   display: inline;
-  margin-right: 70px;
+  margin-right: 20px;
 }
 .exa_link{
   
@@ -225,8 +229,8 @@ margin-left: 180px;
   color: rgb(255, 198, 100); 
 }
 .flex-container2 > div{
-  width: 416px;
-height: 416px;
+ max-width: 416px;
+max-height: 416px;
 margin-top: 20px;
 margin-left: 120px;
 
