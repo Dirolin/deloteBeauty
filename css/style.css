@@ -313,13 +313,14 @@ margin-top: 25px;
 }
 .footer2{
   margin-top: -1380px;
+  
 }
 .master{
   font-weight: 700;
 font-size: 48px;
 line-height: 120%;
 margin-top: 180px;
-margin-left: 640px;
+margin-left: 1040px;
 }
 .flex-container4 > div{
 margin-left: 80px;
@@ -327,6 +328,8 @@ width: 416px;
   height: 595px;
 }
 .flex-container4{
+  margin-left: 380px;
+  max-width: 1800px;
   display: flex;
   flex-wrap: wrap;  
 }
