@@ -206,17 +206,17 @@ margin-left: 180px;
 }
 .menu{
   
-  margin-left: 750px;
+  margin-left: 650px;
   margin-top: 250px;
   
 }
 .list_exa>li{
   
-  
+  max-width: 500px;
   font-size: 24px;
   line-height: 130%;
   display: inline;
-  margin-right: 20px;
+  margin-right: 70px;
 }
 .exa_link{
   
@@ -289,20 +289,22 @@ margin-left: 209px;
 
 
 }
-.flex-container3{
- margin-left: 0px;
-  display: flex;
-  flex-wrap: wrap;
-  position: absolute;
+.flex-container3 > div{  
+  width: 293px;
+  height: 153px;
+  margin-left: 209px;
   
-  margin-top: -290px;
-margin-left: 84px;
-}
-.text_footer{
-  font-weight: 700;
-font-size: 24px;
-line-height: 120%;
-}
+  
+  }
+  .flex-container3{
+   margin-left: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    
+    margin-top: -290px;
+  margin-left: 84px;
+  }
 .sub_text{
   font-weight: 400;
 font-size: 18px;
