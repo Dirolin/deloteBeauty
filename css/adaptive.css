@@ -8,13 +8,14 @@
 	.header{
 		width: 100%;
 		position: absolute;
-		left:45%;
+		left: 25%;
+		
 	}
 	.mark{
 		margin-top: 1700px;
 	}
 	.flex-container2{
-		width: 1625px;
+		width: 1000px;
 	}
 	.flex-container3{
 		width: 1625px;
@@ -76,10 +77,12 @@
 		
 	}
 	.flex-container2{
-		width: 1625px;
+		width: 800px;
+		margin-left: 220px;
 	}
-	.flex-container3{
-		width: 1625px;
+	.footer{
+		width: 800px;
+		margin-top: 300px;
 	}
 	.header{
 		width: 200%;

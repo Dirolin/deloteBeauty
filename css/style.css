@@ -13,7 +13,7 @@
 }
 /*my coding*/
 html{
-  
+  max-width: 960;
   box-sizing: border-box;
 }
 *,*::before,*::after{
@@ -25,15 +25,12 @@ html{
   left:  0 auto;
   width: 100%;
   margin-top: 39px;
-  left:20%
+  
   
 }
-.wrapper{
-  
-    margin: 0 auto;
-  }
+
 body{
-  max-width: 1200px;
+  max-width: 960px;
   font-family: 'Cormorant Garamond';
   font-style: normal;
   font-size: 16px;
@@ -42,24 +39,30 @@ body{
   color:#ffffff ;
   background-color: black;
   
-overflow-x: hidden;
+
 }
 
 
 .header_list{
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   position: absolute;
+  
   
 }
 .header{
- margin-left: auto 0px;
-  z-index: 1000
+  max-width: 960px;
+
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+
 }
 
 .header_item{
   margin-right: 80px;
   text-decoration: none;
+ 
 }
 .header_item:last-child{
   margin-right: 0;
@@ -76,7 +79,7 @@ text-decoration: none;
   color: rgb(255, 198, 100); 
 }
 .background{
-  left: 25%;
+  
   position: flex;
 background-size:100% ;
 max-height: 1038px;
@@ -84,7 +87,9 @@ max-width: 1920px;
 z-index: -1;
 
 
+
 }
+
 .inst{
   margin-right: 80px;
 }
@@ -92,10 +97,7 @@ z-index: -1;
   margin-right: 80px;
   margin-top: -10px;
 }
-.line_header{
- margin-top: 38px;
-max-width: 800px;
-}
+
 .container{
   max-width: 1440px;
 }
@@ -228,22 +230,27 @@ margin-left: 180px;
 .exa_link:hover,.exa_link:focus,.exa_link:active{/*hover - mouse on titel, focus-tab, active-click*/
   color: rgb(255, 198, 100); 
 }
-.flex-container2 > div{
- max-width: 416px;
-max-height: 416px;
+.flex-container2 > div {
+  background-color: #000000;
+  margin: 10px;
+  
+  font-size: 20px;
+  width: 300px;
+height: 264px;
+left: 240px;
 margin-top: 20px;
-margin-left: 120px;
+
 
 }
 .flex-container2{
- margin-left: 30px;
-  display: flex;
-  flex-wrap: wrap;
+  max-width: 1200px;
   position: absolute;
-  left: 70px;
+  left: 270px;
   display: flex;
   flex-wrap: wrap;
-   
+  margin: 34px;
+  margin-bottom: 220px; 
+ 
 }
 .line_down{
   position: absolute;
@@ -505,3 +512,4 @@ margin-left: 700px;
 .footer4{
   margin-top: 200px;
 }
+
