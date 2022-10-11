@@ -207,7 +207,7 @@ font-size: 48px;
 margin-left: 180px;
 }
 .menu{
-  
+  white-space: nowrap;
   margin-left: 650px;
   margin-top: 250px;
   
