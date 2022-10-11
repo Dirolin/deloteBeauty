@@ -232,25 +232,26 @@ margin-left: 180px;
 }
 .flex-container2 > div {
   background-color: #000000;
+
   margin: 10px;
-  
   font-size: 20px;
-  width: 300px;
-height: 264px;
-left: 240px;
+  max-width: 450px;
 margin-top: 20px;
+display: flex;
+flex-wrap: wrap;
+
 
 
 }
 .flex-container2{
-  max-width: 1200px;
+  
   position: absolute;
-  left: 270px;
+  left: 200px;
   display: flex;
   flex-wrap: wrap;
   margin: 34px;
   margin-bottom: 220px; 
- 
+
 }
 .line_down{
   position: absolute;
@@ -321,9 +322,12 @@ font-size: 18px;
 line-height: 130%;
 margin-top: 25px;
 }
+.footer{
+  margin-left:150px;
+}
 .footer2{
   margin-top: -1380px;
-  margin-left: 80px;
+  margin-left: 180px;
 }
 .master{
   white-space: nowrap;
