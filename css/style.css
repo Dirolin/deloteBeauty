@@ -269,6 +269,7 @@ margin-top: 30px;
 margin-left: 750px;
 opacity: 0.5;
 padding: 10px;
+white-space: nowrap;
 }
 .line2{
   margin-top: 1700px;
@@ -280,6 +281,7 @@ left: 86.88%;
 right: 10.34%;
 margin-top: -200px;
 margin-left: -120px;
+position: fixed;
 }
 .inst_text{
   position: absolute;
@@ -288,6 +290,7 @@ font-size: 24px;
 line-height: 120%;
 margin-left: 1200px;
 margin-top: -250px ;
+white-space: nowrap;
 }
 .flex-container3 > div{  
 width: 293px;
@@ -320,14 +323,16 @@ margin-top: 25px;
 }
 .footer2{
   margin-top: -1380px;
-  
+  margin-left: 80px;
 }
 .master{
+  white-space: nowrap;
   font-weight: 700;
 font-size: 48px;
 line-height: 120%;
 margin-top: 180px;
-margin-left: 1040px;
+margin-left: 680px;
+
 }
 .flex-container4 > div{
 margin-left: 80px;
@@ -335,7 +340,7 @@ width: 416px;
   height: 595px;
 }
 .flex-container4{
-  margin-left: 380px;
+  margin-left: 80px;
   max-width: 1800px;
   display: flex;
   flex-wrap: wrap;  
@@ -398,14 +403,14 @@ position: absolute;
   width: 636px;
 height: 536px;
 margin-top: 218px;
-margin-left: 218px;
+margin-left: -520px;
 }
 .price_intro{
   position: absolute;
   font-weight: 700;
   font-size: 48px;
   line-height: 120%;
-  margin-left: 650px;
+  margin-left: 450px;
   margin-top: 80px;
 }
 .start{
@@ -456,6 +461,7 @@ line-height: 130%;
 .flex-container6{
   position: absolute;
  margin-top: -90px;
+ margin-left: -380px;
   
 }
 .flex-container7 > div{
@@ -465,7 +471,7 @@ line-height: 130%;
 }
 .flex-container7{
   position: absolute;
- margin-left: -860px;
+ margin-left: -1060px;
  margin-top: 550px;
   
 }
@@ -474,7 +480,7 @@ line-height: 130%;
     width: 636px;
   height: 536px;
   margin-top: 834px;
-  margin-left: 900px;
+  margin-left: 90px;
   
   }
 
@@ -484,15 +490,16 @@ line-height: 130%;
 font-size: 48px;
 line-height: 120%;
 margin-top: 80px;
-margin-left: 700px;
+margin-left: 200px;
 }
 .map{
   max-width: 1296px;
   max-height: 576px;
   margin-top: 80px;
-  margin-left: 392px;
+  margin-left: 192px;
 }
 .right2{
+  white-space: nowrap;
   position: absolute;
   margin-left: 450px;
 }
@@ -502,14 +509,15 @@ margin-left: 700px;
 }
 .flex-container5{
   margin-top: 80px;
-  margin-left: 450px;
+  margin-left: 250px;
   font-family: 'Cormorant Garamond';
 }
 .footer3{
  margin-top: -900px;
-
+margin-left: -200px;
 }
 .footer4{
   margin-top: 200px;
+  margin-left: -200px;
 }
 
