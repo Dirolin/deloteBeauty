@@ -294,19 +294,16 @@ margin-top: -250px ;
 white-space: nowrap;
 }
 .flex-container3 > div{  
-width: 293px;
-height: 153px;
-margin-left: 209px;
+  width: 323px;
+  height: 153px;
+  margin-left: 329px;
 
 
 }
-.flex-container3 > div{  
-  width: 293px;
-  height: 153px;
-  margin-left: 209px;
+
   
   
-  }
+  
   .flex-container3{
    margin-left: 0px;
     display: flex;
@@ -335,11 +332,11 @@ margin-top: 25px;
 font-size: 48px;
 line-height: 120%;
 margin-top: 180px;
-margin-left: 680px;
+margin-left: 857px;
 
 }
 .flex-container4 > div{
-margin-left: 80px;
+margin-left: 180px;
 width: 416px;
   height: 595px;
 }
