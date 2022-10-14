@@ -521,4 +521,11 @@ margin-left: -200px;
   margin-top: 200px;
   margin-left: -200px;
 }
+.menu_open{
+  margin-left: 1050px;
+  background: none;
+}
+.wrapper .show-menu{
+  display: block;
+}
 

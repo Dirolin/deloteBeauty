@@ -23,7 +23,11 @@
 	.flex-container4{
 		width: 1825px;
 	}
+	.menu_open{
+		display: none;
+	}
 }
+
 
 @media screen and (max-width: 1199px) {
 	.container {
@@ -44,6 +48,9 @@
 	.flex-container4{
 		width: 1825px;
 	}
+	.menu_open{
+		display: none;
+	}
 
 @media screen and (max-width: 991px) {
 	.container {
@@ -63,6 +70,9 @@
 	}
 	.flex-container4{
 		width: 1825px;
+	}
+	.menu_open{
+		display: none;
 	}
 	
 }
@@ -94,6 +104,12 @@
 	}
 	.example{
 		top: 3216px;
+	}
+	.wrapper{
+		display:none;
+	}
+	.menu_open{
+		display: block;
 	}
 	
 	}
